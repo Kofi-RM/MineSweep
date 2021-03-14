@@ -29,6 +29,8 @@ public class MinesweeperDriver {
 
             MinesweeperGame game = new MinesweeperGame(stdIn, seed);
 
+
+
             game.readSeed();
             game.printWelcome();
             game.printMinefield();
