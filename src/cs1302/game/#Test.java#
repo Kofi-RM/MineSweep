@@ -1,0 +1,12 @@
+package cs1302.game;
+
+public class Test<T, U> {
+        private T first;
+        private U second;
+
+    public static void main(String[] args) {
+
+        Test<String, Boolean> p = new Test<String, Boolean>("Brad", true);
+    }
+
+}
